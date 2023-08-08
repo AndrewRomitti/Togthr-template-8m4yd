@@ -1,0 +1,106 @@
+.class-page-invert-container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-primary-300);
+  border-width: 5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.class-page-invert-container1 {
+  flex: 0 0 auto;
+  width: 55%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000000;
+}
+.class-page-invert-text {
+  color: #ffffff;
+  font-size: 3em;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+}
+.class-page-invert-text1 {
+  color: var(--dl-color-gray-700);
+  font-size: 2em;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: right;
+}
+.class-page-invert-text2 {
+  color: #fffdfd;
+  margin: var(--dl-space-space-unit);
+  font-size: 2em;
+  text-align: center;
+}
+.class-page-invert-image {
+  width: 45%;
+  height: auto;
+  object-fit: cover;
+}
+.class-page-invert-root-class-name {
+  margin: var(--dl-space-space-twounits);
+}
+.class-page-invert-root-class-name1 {
+  margin: var(--dl-space-space-twounits);
+}
+@media(max-width: 1200px) {
+  .class-page-invert-container {
+    height: auto;
+    margin: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .class-page-invert-container1 {
+    height: auto;
+  }
+  .class-page-invert-image {
+    width: 45%;
+    height: 55vh;
+  }
+}
+@media(max-width: 991px) {
+  .class-page-invert-image {
+    height: 50vh;
+  }
+}
+@media(max-width: 767px) {
+  .class-page-invert-container {
+    height: auto;
+  }
+  .class-page-invert-container1 {
+    height: auto;
+  }
+  .class-page-invert-text2 {
+    text-align: center;
+  }
+  .class-page-invert-image {
+    height: 65vh;
+  }
+}
+@media(max-width: 479px) {
+  .class-page-invert-text {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .class-page-invert-text1 {
+    font-size: 1em;
+  }
+  .class-page-invert-text2 {
+    color: var(--dl-color-primary-700);
+    margin: var(--dl-space-space-unit);
+    font-size: 1em;
+    align-self: center;
+    text-align: center;
+  }
+  .class-page-invert-image {
+    height: 38vh;
+  }
+}
